@@ -1,10 +1,259 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>LI Suyi</title>
-</head>
+    <title>Responsive HTML5 Website Template for Developers | 3rd Wave Media</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head> 
+
 <body>
-My name is Suyi Li. I am currently a senior student in BUPT.
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile_suyi.png" alt="Suyi Li" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Suyi Li</h1>
+                <h2 class="desc">Senior Student in Beijing Univ. of Posts & Telecommunications</h2>   
+            </div><!--//profile-->            
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p><b>Bachelor of Science in Engineering</b></p>
+                            <p>Rank: <b>3</b>/172    GPA: <b>89.72</b>/100 (or <b>3.80</b>/4)</p>
+                            <p>Major: Internet of Things Engineering</p>
+                            <p><a href="http://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a> <a href="http://www.bupt.edu.cn/">[Chinese Version]</a> <br /></p>
+                            <p>I am currently a senior student in Beijing University of Posts & Telecommunications.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title">Persona Analysis based on TripAdvisor</h3>
+                                <p class="summary"></p>
+                                <!-- <p class="summary">A mobile app to help you make delicious potato salad</p> -->
+                                <!-- <div class="featured-image">
+                                    <a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">App</div>
+                                        </div>
+                                    </div> -->
+                                <div class="desc text-left"> 
+                                    <p><b>Final-year Project</b>, Nov. 2017 to Present</p>
+                                    <p>At <b>Beijing University of Posts & Telecommunications</b></p>                                   
+                                    <p>The aim of this project is to build a persona analysis model and visualize the analysis results. A persona is a ficional character created to represent a user type that might use a site, brand, or product in a similiar way. Marketers may use personas together with market segmentation, where the persona are constructed to be representative of specific segments. Thus, the use of personas offers benefits in product development.  
+                                    </p>
+                                    <p>Therefore, it is meaningful to do some research work on persona analysis. In this project, I have four main tasks : 1. Collect users' comments from website; 2. Train a persona analysis model; 3. Apply the model into real analysis work; 4. Visualize the analysis results. 
+                                    </p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Research Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Crime Pattern Detection & Police Zoning Analysis  - <span class="year">(Aug. 2017 to Oct. 2017)</span></h3>
+                                <p><b>Summer Student Intern</b> at <b>Georgia Institute of Technology</b></p>
+                                <p class="summary">In this project, we detected crime patterns by analyzing incident reports. Our model was based on bag-of-words to do feature engineering and used Word2Vec to do word embedding. We detected the similarities between different incidents and, thus, crime patterns. After finding the correlations among the incidents, we built a system to visualize the results on the Google Maps.</p>
+                                <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Demo Video</a>&nbsp &nbsp &nbsp &nbspPassword: lisuyi</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Space-time Data Analysis and Visualization - <span class="year">(Sept. 2016 to Mar. 2017)</span></h3>
+                                <p><b>Student Research Intern</b> at <b>Institute of Software, Chinese Academy of Science</b></p>
+                                <p class="summary">In this project, my main job was to analyze sensor data to find anomalous patterns. In so doing, I became more proficient at typical machine learning algorithms such as k-means, k-nearest neighbor (NN), and Gaussian distribution. For instance, while looking for anomalies in our sensor data, I found it more effective to select normal points as Gaussian kernels with their variances determined by the sparsity of the neighbor normal points than to directly adopt a k-means algorithm. In addition, for optimization, I divided the data into multiple batches and distributed the analysis among multiple processes, successfully reducing the running time from tens of hours to three hours. 
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Research on Software Trustworthiness Evaluation - <span class="year">(Sept. 2015 to May 2016)</span></h3>
+                                <p><b>Student Research Intern</b> at <b>School of Software Engineering, BUPT</b></p>
+                                <p class="summary">In this project, I worked on a project analyzing and evaluating software trustworthiness. We proposed to research quantitative evaluations based on the final product. The first thing I did was to define the trustworthy attributes of a software product, both internally and externally. According to multi-criteria complex decision-making scenarios, we chose the AHP method and then decomposed the evaluation problem into a hierarchy of more easily comprehended sub-problems, each of which could be analyzed independently. Our paper on this quantitative evaluation model of software trustworthiness was accepted in January 2017.
+                                </p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Honors & Awards</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">National Scholarship (Two times)</h3>
+                                <p>Awarded by Ministry of Education, China in 2015 and 2016</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">First-class Scholarship </h3>
+                                <p>Awarded by Beijing Univ. of Posts & Telecommunications in 2017</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Honorable Mention in 2016 Interdisciplinary Contest in Modeling</h3>
+                                <p>Awarded by COMAP, USA in 2016</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Excellent Student Cadre </h3>
+                                <p>Awarded by Beijing Univ. of Posts & Telecommunications in 2016</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Extra-curricular Activities</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Basketball Player in School Basketball Team </h3>
+                                <p>I play as a Point Guard in my team. My teammates and I had training together and won the 2016 championship in our university.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Voluntary Teacher in Elementary School</h3>
+                                <p>I had a experience of being a voluntary teacher in Pingxifu Hongli Elementary School. I helped teachers in the school and taught pupils Mathematical knowledge.</p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Volunteer Experience in Beijing Aquarium</h3>
+                                <p>I had a experience of being a commentator in Beijing Aquarium. I mainly working on introducing different fish in the aquarium to visitors. Also, I provided assistance to visitors if they need.
+                                </p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Beijing, China</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>lisuyi [at] bupt.edu.cn</li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Motto</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fa fa-quote-left"></i>Never be afraid to be best.</p>
+                                </blockquote>                                                                           
+                            </div><!--//item--> 
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro"></p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Programming Languages</h3>
+                                    <div>
+                                        <p>Python, Java and C</p>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Tools</h3>
+                                    <div>
+                                        <p>Linux Command, Shell Script and Git</p>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Chinese:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">&nbsp Proficient <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
